@@ -1,0 +1,24 @@
+@media screen and (max-width: 676px){
+    .nav-section{
+        flex-direction: column;
+    }
+    .items-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-container{
+        justify-content: center;
+    }
+    .banner-section {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 15px;
+      }
+      .text-section{
+        width: 100%;
+        order: 2;
+      }
+      .banner-image-section {
+        width: 100%;
+      }
+}
